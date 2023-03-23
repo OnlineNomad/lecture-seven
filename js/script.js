@@ -9,6 +9,10 @@ btn.addEventListener('click', ()=>{
     }
 })
 
-const cardDiv = document.querySelector('#card');
+const card = document.createElement("div");
+card.innerHTML = "<h2>Vaniko</h2>\n<a href=\"#\">Go to profile</a>";
+card.id = "card";
+document.getElementById("two").appendChild(card)
 
+const cardDiv = document.querySelector('#card');
 cardDiv.style.backgroundColor = 'red';

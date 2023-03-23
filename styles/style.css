@@ -8,14 +8,14 @@ body {
     flex-direction: column;
     gap: 300px;
 }
-.one {
+#one {
     margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.two {
+#two {
     display: flex;
     flex-direction: column;
     align-items: center;
